@@ -17,7 +17,7 @@ public class CustomerOrderWsImpl implements CustomerOrdersPortType {
     int currenId;
 
     @Autowired
-    Aab a;
+    private Aab a;
     @Value("${app.aks}")
     private String ak;
     public CustomerOrderWsImpl(){
