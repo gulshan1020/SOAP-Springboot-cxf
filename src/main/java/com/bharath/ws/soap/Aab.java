@@ -3,7 +3,7 @@ package com.bharath.ws.soap;
 import org.springframework.stereotype.Component;
 
 @Component
-public class aab {
+public class Aab {
     private String name;
      public void dd(){
          System.out.println("ff");
